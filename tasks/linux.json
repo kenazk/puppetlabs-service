@@ -3,11 +3,11 @@
   "input_method": "environment",
   "parameters": {
     "action": {
-      "description": "The operation (start, stop) to perform on the service",
+      "description": "The action (start, stop, restart) to perform on the service.",
       "type": "Enum[start, stop, restart]"
     },
     "name": {
-      "description": "The name of the service to operate on.",
+      "description": "The name of the service to act on.",
       "type": "String[1]"
     }
   }
